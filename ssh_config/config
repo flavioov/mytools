@@ -1,0 +1,10 @@
+Host merlin
+	HostName e2311.ddns.net
+	User merlin
+	Port 22
+
+
+Host merlin_cloud
+	HostName merlin-cloud.ddns.net
+	User root
+	Port 22

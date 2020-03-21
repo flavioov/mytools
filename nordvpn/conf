@@ -1,0 +1,18 @@
+# ipsec.conf - strongSwan IPsec configuration file
+#
+
+conn NordVPN
+	keyexchange=ikev2
+	dpdaction=clear
+	dpddelay=300s
+  	eap_identity="oliveira.v@outlook.com"
+	leftauth=eap-mschapv2
+	left=%defaultroute
+	leftsourceip=%config
+	right=br33.nordvpn.com
+	rightauth=pubkey
+	rightsubnet=0.0.0.0/0
+	rightid=%br33.nordvpn.com
+	rightca=/etc/ipsec.d/cacerts/NordVPN.pem
+	type=tunnel
+	auto=add 
