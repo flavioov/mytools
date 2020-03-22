@@ -1,2 +1,3 @@
 # my_tools
-Tools as: configurations ofr fresh system start and tools.
+- Configurações para sistemas recem instalados
+- Ferramentas (Tools) de cunho personalizado
