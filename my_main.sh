@@ -4,7 +4,8 @@
 echo "
 Installing all programs (python, chrome, calibre, git, vlc, etc.)
 "
-sh ~/my_tools/programs/install.sh
+sh ~/my_tools/programs/basic_install.sh
+sh ~/my_tools/programs/others_install.sh
 
 # ssh configuration
 echo "
