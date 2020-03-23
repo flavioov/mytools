@@ -1,5 +1,5 @@
 #!/bin/bash
 
 sudo snap install pycharm-professional --classic
-sudo snap install spotfy
+sudo snap install spotify
 
