@@ -10,14 +10,11 @@ sh ~/my_tools/bashrc/update_n_clean.sh
 
 #Coping configuration files
 	#Configure secrets
-sudo > /etc/ipsec.secrets
-sudo cat ~/my_tools/nordvpn/secrets >> /etc/ipsec.secrets
+sudo vim /etc/ipsec.secrets
 	#Configure ipsec.conf
-sudo > /etc/ipsec.conf
-sudo cat ~/my_tools/nordvpn/conf >> /etc/ipsec.conf
+sudo vim /etc/ipsec.conf
 	#Configure Constraints
-sudo > /etc/strongswan.d/charon/constraints.conf
-sudo cat ~/my_tools/nordvpn/constraints >> /etc/strongswan.d/charon/constraints.conf
+sudo vim /etc/strongswan.d/charon/constraints.conf
 
 #NordVPN RSA certificate
 sudo wget https://downloads.nordcdn.com/certificates/root.der -O /etc/ipsec.d/cacerts/NordVPN.der

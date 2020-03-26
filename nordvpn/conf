@@ -16,3 +16,10 @@ conn NordVPN
 	rightca=/etc/ipsec.d/cacerts/NordVPN.pem
 	type=tunnel
 	auto=add 
+conn ignorelan
+    left=127.0.0.1 #prevents usage in peers selection algorithm
+    leftsubnet=192.168.1.0/24
+    rightsubnet=192.168.1.0/24
+    authby=never
+    type=passthrough
+    auto=route
