@@ -5,4 +5,3 @@ echo "
 Do not forget to 'source ~/.bashrc' your bashrc
 "
 
-I MADE A CHANGE
