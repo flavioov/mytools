@@ -1,0 +1,11 @@
+#pathogen
+cd ~/.vim
+git submodule add git@github.com:dracula/vim.git bundle/dracula
+
+#vundle
+Plugin 'dracula/vim', { 'name': 'dracula' }
+:PluginInstall
+
+#vim-plug
+Plug 'dracula/vim', { 'as': 'dracula' }
+:PlugInstall
