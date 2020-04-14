@@ -1,8 +1,12 @@
-Host merlin
+Host merlin-wan
 	HostName e2311.ddns.net
 	User merlin
-	Port 22
+	Port 1988
 
+Host merlin
+	HostName 192.168.1.1.
+	User merlin
+	Port 1998
 
 Host merlin_cloud
 	HostName merlin-cloud.ddns.net
