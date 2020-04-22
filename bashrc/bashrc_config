@@ -1,9 +1,9 @@
 #flavio###
 
         #Folders & Files
-alias myupdate="sh ~/my_tools/bashrc/update_n_clean.sh"
-alias mybashrc="vim ~/my_tools/bashrc/bashrc_config"
-alias rebashrc="sh ~/my_tools/bashrc/install.sh"
+alias myupdate="sh ~/mytools/bashrc/update_n_clean.sh"
+alias mybashrc="vim ~/mytools/bashrc/bashrc_config"
+alias rebashrc="sh ~/mytools/bashrc/install.sh"
 
         #NordVPN
 alias nordvpn.up="sudo ipsec up NordVPN"
@@ -12,10 +12,10 @@ alias nordvpn.status="sudo ipsec status"
 alias nordvpn.status.all="sudo ipsec statusall"
 alias nordvpn.conf="sudo vim /etc/ipsec.conf"
 alias nordvpn.reset="sudo ipsec restart"
-alias nordvpn.ping.servers="sh ~/my_tools/tools/ping_nordvpn.sh"
+alias nordvpn.ping.servers="sh ~/mytools/tools/ping_nordvpn.sh"
 
 #WOL
-alias wake_martin="sh ~/my_tools/tools/wake_merlin_on_lan.sh"
+alias wake_martin="sh ~/mytools/tools/wake_merlin_on_lan.sh"
 
 #System shorts
 alias cd1='cd ../'

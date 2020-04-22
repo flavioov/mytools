@@ -6,7 +6,7 @@ echo "
 Installing NordVPN stuff: strongswan libcharon-extra-plugins libcharon-standard-plugins 
 "
 sudo apt-get install strongswan libcharon-extra-plugins libcharon-standard-plugins -y
-sh ~/my_tools/bashrc/update_n_clean.sh
+sh ~/mytools/bashrc/update_n_clean.sh
 
 #Coping configuration files
 	#Configure secrets
