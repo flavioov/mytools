@@ -23,7 +23,8 @@ sh ~/mytools/ssh_config/install.sh
 echo "
 Installing and configuring Nordvpn IKEV2
 "
-sh ~/mytools/nordvpn/install.sh 
+sh ~/mytools/nordvpn/ikev2-protocol/install.sh 
+sudo sh ~/mytools/nordvpn/nordapp/install.sh
 
 echo "
 All Done !! 
