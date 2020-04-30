@@ -17,7 +17,7 @@ sh ~/mytools/bashrc/update_n_clean.sh
 	# Other non-official binaries will conflict with Speedtest CLI
 	# Example how to remove using apt-get
 	# sudo apt-get remove speedtest-cli
-sudo apt-get install speedtest
+sudo apt-get install speedtest-cli
 
 # Google Chrome
 echo "
