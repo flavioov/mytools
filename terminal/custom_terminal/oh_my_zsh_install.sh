@@ -28,6 +28,7 @@ ln -s ~/.oh-my-zsh/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-zsh/them
 
 vim ~/.zshrc
 
+cat ./zsh_spaceship.conf >> ~/.zshrc
 #################
 #### zinit ######
 #################
