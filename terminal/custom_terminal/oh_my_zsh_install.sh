@@ -52,3 +52,5 @@ sudo apt-get update
 sudo apt install fonts-firacode -y
 
 rm -rf ./gnome-terminal
+
+echo ./aliases.conf >> ~/.zshrc
